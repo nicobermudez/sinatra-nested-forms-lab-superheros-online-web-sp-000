@@ -16,7 +16,7 @@ class App < Sinatra::Base
       end
 
       @heroes = SuperHero.all
-      erb :'views/display'
+      erb :'app/views/display'
     end
 
 
