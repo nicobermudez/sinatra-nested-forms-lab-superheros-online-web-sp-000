@@ -4,6 +4,6 @@ class SuperHero
   @@all = []
 
   def initialize(details)
-
+    @name = details[:name]
   end
 end
