@@ -1,7 +1,7 @@
 class SuperHero
   attr_accessor :name, :power, :bio
 
-  @@all = []
+  @@heroes = []
 
   def initialize(details)
     @name = details[:name]
