@@ -5,5 +5,6 @@ class SuperHero
 
   def initialize(details)
     @name = details[:name]
+    @power = details[:power]
   end
 end
