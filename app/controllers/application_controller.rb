@@ -12,7 +12,7 @@ class App < Sinatra::Base
       @team = Team.new(params[:team])
 
 
-
+      @heroes = Hero.all  
       erb :display
     end
 
