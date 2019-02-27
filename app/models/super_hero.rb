@@ -9,4 +9,8 @@ class SuperHero
     @bio = details[:bio]
     @@all << self
   end
+
+  def self.all
+    @@all
+  end
 end
