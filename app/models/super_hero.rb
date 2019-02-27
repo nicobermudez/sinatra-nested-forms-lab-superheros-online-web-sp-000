@@ -1,20 +1,20 @@
 class SuperHero
   attr_accessor :name, :power, :bio
 
-  @@heroes = []
+  @@all = []
 
   def initialize(details)
     @name = details[:name]
     @power = details[:power]
     @bio = details[:bio]
-    @@heroes << self
+    @@all << self
   end
 
   def self.all
-    @@heroes
+    @@all
   end
 
   def self.clear
-    @@heroes = []
+    @@all = []
   end
 end
