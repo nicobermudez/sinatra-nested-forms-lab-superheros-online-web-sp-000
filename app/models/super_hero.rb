@@ -7,5 +7,6 @@ class SuperHero
     @name = details[:name]
     @power = details[:power]
     @bio = details[:bio]
+    @@all << self
   end
 end
