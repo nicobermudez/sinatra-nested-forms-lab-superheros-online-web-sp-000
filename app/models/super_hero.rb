@@ -16,4 +16,5 @@ class SuperHero
 
   def self.clear
     @@all = []
+  end
 end
