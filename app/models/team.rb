@@ -1,12 +1,11 @@
 class Team 
-  attr_accessor :name, :power, :bio
+  attr_accessor :name, :motto 
 
   @@all = []
 
   def initialize(details)
     @name = details[:name]
-    @power = details[:power]
-    @bio = details[:bio]
+    @motto = details[:motto]
     @@all << self
   end
 
